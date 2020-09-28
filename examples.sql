@@ -28,4 +28,4 @@ https://github.com/tooledesign/A0123_KDOT_Active-Trans/blob/master/01_process_lr
 
 --count null values per row:
 
-https://github.com/tooledesign/H005_ODOT_P_VAR-STW-BikewayPedestrian-2018/blob/master/06_new_status_table_with_LTS/00_handle_dupes/num_nulls.sql
+https://github.com/tooledesign/H005_ODOT_P_VAR-STW-BikewayPedestrian-2018/blob/master/06_new_status_table_with_LTS/00_handle_dupes/count_null_values_per_row.sql
