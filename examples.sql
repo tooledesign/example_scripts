@@ -17,3 +17,15 @@ https://github.com/tooledesign/A0123_KDOT_Active-Trans/blob/master/01_process_lr
         ],
 
 
+--dyanamic select statement
+
+https://github.com/tooledesign/A0123_KDOT_Active-Trans/blob/master/01_process_lrs_data/XX_dynamic_column_typefix.sql#L13-L26
+
+
+
+
+
+
+--count null values per row:
+
+https://github.com/tooledesign/H005_ODOT_P_VAR-STW-BikewayPedestrian-2018/blob/master/06_new_status_table_with_LTS/00_handle_dupes/num_nulls.sql
