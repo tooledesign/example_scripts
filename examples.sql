@@ -29,3 +29,10 @@ https://github.com/tooledesign/A0123_KDOT_Active-Trans/blob/master/01_process_lr
 --count null values per row:
 
 https://github.com/tooledesign/H005_ODOT_P_VAR-STW-BikewayPedestrian-2018/blob/master/06_new_status_table_with_LTS/00_handle_dupes/count_null_values_per_row.sql
+
+
+-- prepping postgres data for arcmap
+UPDATE final_delivery.pei_segments SET geom = ST_RemoveRepeatedPoints(ST_SnapToGrid(geom, 0.001));
+
+--dynamic query to prep for arcmap
+https://github.com/tooledesign/F042_CaltransCATPlans/blob/esri_storymap_development/district4/storymaps/04_X_prep_for_arcmap.sql
