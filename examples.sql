@@ -48,4 +48,4 @@ https://github.com/tooledesign/F042_CaltransCATPlans/blob/esri_storymap_developm
 //                                                                              
 //==============================================================================
 
-https://github.com/tooledesign/K0002_Edmonton_Bike_Plan.git
+https://github.com/tooledesign/K0002_Edmonton_Bike_Plan/blob/0804de7ef1162fa54fa98915dce1a0649209e5c5/demand/prep/001_create_hex_grid.sql
