@@ -36,3 +36,16 @@ UPDATE final_delivery.pei_segments SET geom = ST_RemoveRepeatedPoints(ST_SnapToG
 
 --dynamic query to prep for arcmap
 https://github.com/tooledesign/F042_CaltransCATPlans/blob/esri_storymap_development/district4/storymaps/04_X_prep_for_arcmap.sql
+
+
+//==============================================================================
+//                                                                              
+//  ##   ##  #####  ##    ##         ####    #####    ##  ####                
+//  ##   ##  ##      ##  ##         ##       ##  ##   ##  ##  ##              
+//  #######  #####    ####          ##  ###  #####    ##  ##  ##              
+//  ##   ##  ##      ##  ##         ##   ##  ##  ##   ##  ##  ##              
+//  ##   ##  #####  ##    ##         ####    ##   ##  ##  ####                
+//                                                                              
+//==============================================================================
+
+https://github.com/tooledesign/K0002_Edmonton_Bike_Plan.git
