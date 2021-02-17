@@ -49,3 +49,11 @@ https://github.com/tooledesign/F042_CaltransCATPlans/blob/esri_storymap_developm
 //==============================================================================
 
 https://github.com/tooledesign/K0002_Edmonton_Bike_Plan/blob/0804de7ef1162fa54fa98915dce1a0649209e5c5/demand/prep/001_create_hex_grid.sql
+
+
+
+
+clip data on upload
+
+psql -h pdx-postgis-a -U gis -d scag_vmt -c "DROP TABLE IF EXISTS generated.ca_demographics_2018"    
+ogr2ogr -lco GEOMETRY_NAME=geom -f "PostgreSQL" PG:"host=pdx-postgis-a port=5432 dbname=scag_vmt user=gis password=gis" PG:"host=dca-postgis03 port=5432 dbname=census user=gis password=gis" "automated.ca_demographics_2018" -clipdst PG:"host=pdx-postgis-a port=5432 dbname=scag_vmt user=gis password=gis" -clipdstlayer "generated.clip_area" -t_srs EPSG:26911 -nlt PROMOTE_TO_MULTI -nln generated.ca_demographics_2018 -overwrite -progress --config PG_USE_COPY YES 
